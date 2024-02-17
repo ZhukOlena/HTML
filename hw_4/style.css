@@ -60,10 +60,11 @@ body{
 .footer{
     background-color: darkkhaki;
     margin: 0;
-    color: rgba(25, 25, 28, 1);
+    color: rgb(40, 40, 182);
     font: 400 18px/28px Inter;
     width: 1440px;
 }
+
 
 .footer__title{
     font-size: x-large;
@@ -78,3 +79,4 @@ body{
     color: #305304;
     text-decoration: none;
 }
+

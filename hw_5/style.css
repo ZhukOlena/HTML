@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(35, 34, 9);
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.heder-2 {
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(87, 117, 188);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0px;
+    right: -600px;
+    margin: 1em 0;
+}
+
+.btn-box {
+    position: sticky;
+    background:rgba(176, 198, 255, 1);
+    max-width: 160px;
+    height: 30px;
+    text-align: center;  
+    /* display: inline-block; */
+    color: rgb(11, 1, 1);
+    padding: 30px;
+    /* margin: 0 auto; */
+    /* top: 401px; */
+    top: -250px; 
+    bottom: 0px; 
+    left: -500px;
+    /* margin: 0 auto; */
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+}
+
+.main-text {
+    display: flex;
+    background-color: rgba(255, 252, 176, 1);
+    max-width: 1800px;
+    height: 892px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.all-card {
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(176, 198, 255, 1);
+    max-width: 1200px;
+    max-height: 892px;
+    margin: 0 auto;
+}
+
+.container {
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+}
+
+.card-minion {
+    border: 3px solid black;
+    width: 239px;
+    height: 327px;
+    padding: 20px;
+    margin: 0 auto;
+    top: 135px;
+}
+
+.img {
+    width: 139px;
+    height: 141px;
+    top: 157px;
+} 
+
+.card-minion-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14,52px;
+    color: rgba(0, 0, 0, 1);
+    align-items: center;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14,52px;
+    color: rgba(0, 0, 0, 1);
+    align-items: center;
+    padding: 20px;
+}
+
+.card-minion-button {
+    background: rgba(97, 119, 235, 1);
+    max-width: 160px;
+    height: 40px;
+    text-align: center;  
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+    padding: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    top: 401px;
+}
