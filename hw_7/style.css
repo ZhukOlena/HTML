@@ -3,9 +3,12 @@
     max-width: 1200px;   
 }
 
+.header {
+    background-color: black;
+}
+
 .container-header {
     max-width: 1200px; 
-    background-color: black;
     color: rgba(255, 255, 255, 1);
     margin: 0 auto;
     text-align: center;
@@ -27,40 +30,48 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.container-main {
-    display: inline-block;
-    max-width: 1200px;
+.wrapper-main {
     background-color: rgba(255, 255, 255, 1);
+}
+
+.container-main { 
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.main-description {
-    margin: o auto;
+.main {
+    color:  rgba(0, 0, 0, 1);
+    display: inline-block;
     text-align: center;
+    padding-left: 10px;
+    margin-left: 0px;
 }
-
 
 .main-title {
     max-width: 573px;
     font-size: 80px;
     line-height: 87px;
+    text-align: left;
 }
 
 .main-text {
+    display: inline-block;
     max-width: 530px;
     font-size: 20px;
     line-height: 30px;
     padding-top: 36px;
     padding-bottom: 46px;
+    text-align: left;
 }
 
 .btn-box {
     max-width: 530px;
+    text-align: left;
 }
 
 .message {
     position: relative;
-    max-width: 281px;
+    max-width: 390px;
     max-height: 60px;
 }
 
@@ -68,23 +79,13 @@
     background-color: rgba(255, 255, 255, 1);
     padding: 0px;
     position: absolute;
-    font-size: 16px;
     border: 3px solid rgba(0, 0, 0, 1);
     border-radius: 50px 50px 50px 50px;  
 }
 
-.input.message  {
-    position: absolute;
-    text-transform: uppercase;
-    padding: 18px 20px;
-    background-color: aliceblue;
-    color: rgba(21, 12, 1, 1);
-    max-width: 110px;
-}
-
-.input.message::placeholder {
+.input-massage {
     font-size: 16px;
-    color: grey;
+    margin: 10px;
 }
 
 .main-button{
@@ -92,15 +93,19 @@
     text-transform: uppercase;
     font-size: 16px;
     padding: 18px 20px;
+    top: 0;
+    right: 0;
     background-color: rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
     border-radius: 0px 50px 50px 0px ;  
 }
 
-.img {
-    max-width: 482px;
+.main-img {
     display: inline-block;
-    padding-right: 0px;
+    max-width: 573px;
+    margin-left: 145px; 
+    margin-top: 73px; 
+    vertical-align: top;
 }
 
 .block-step {
@@ -122,30 +127,29 @@
     padding-bottom: 80px;
 }
 
+.wrapper-cash {
+    background-color:  rgba(252, 208, 186, 1);
+}
+
 .container-cash {
     max-width: 1200px;
-    background-color:  rgba(252, 208, 186, 1);
-    color:  rgba(0, 0, 0, 1);
     margin: 0 auto;
-    text-align: center;
 }
 
 .cash {
-    display: flex;
-    /* Якщо використовуємо флекс то картинка рівно, а так я не змогла зробити. Картинка вісить знизу  )) */
-    /* display: inline-block; */
-    text-align: center;
-    margin: 0px;
+    color:  rgba(0, 0, 0, 1);
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+    margin-left: 0px;
 } 
 
 .cash-img{
     display: inline-block;
     max-width: 297px;
-    margin-left: 250px;
-    margin-right: 19px;
-    margin-bottom: 34px;
-    margin-top: 0px;
-    padding-top: 71px ;
+    margin-right: 54px;
+    padding-top: 71px;
+    vertical-align: top;
 }
 
 .cash-item {
@@ -167,17 +171,16 @@
 
 .cash-text {
     display: inline-block;
-    text-align: center;
     padding-right: 100px;
     margin: 0 auto;
 }
 
 .cash-Advance-title {
     font-size: 45px;
+    max-width: 250px;
     line-height: 48px;
     padding-top: 21px;
-    padding-bottom: 87px;
-    margin: 0 auto;
+    padding-bottom: 28px;
     text-align: left;
 }
 
@@ -189,24 +192,22 @@
     padding-top: 71px;
 }
 
-.container-Empower {
+.wrapper-Empower {
     background-color: rgba(204, 211, 231, 1);
-    max-width: 1200px;
-    /* max-height: 651px; */
-    text-align: center;
-    margin: auto;
 }
 
-.Empower {
-    display: inline-block;
-    text-align: center;
-    margin: 0px;
+.container-Empower {
+    max-width: 1200px;
+    text-align: left;
+    margin: 0 auto;  
 }
 
 .Empower-img {
     display: inline-block;
     max-width: 328px;
+    margin-right: 24px;
     padding-top: 71px ;
+    vertical-align: top;
 }
 
 .Empower-main {
@@ -276,13 +277,12 @@
     border-radius: 50px 50px 50px 50px ;  
 }
 
-
 .btn-recommended-button {
-        max-width: 104px;
+        max-width: 144px;
         text-transform: uppercase;
         font-size: 12px;
         margin-top: 75px;
-        padding: 4px 4px;
+        padding: 5px 5px;
         background-color: rgba(255, 255, 255, 1);
         color: rgba(0, 0, 0, 1);
         border-radius: 50px 50px 50px 50px ;  
@@ -290,13 +290,11 @@
 
 .footer-container-main {
     background-color: rgba(0, 0, 0, 1) ;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
 }
 .footer-container {
+    max-width: 1200px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 .footer-text {
@@ -307,6 +305,7 @@
     line-height: 18px;
     padding-top: 80px;
     padding-left: 80px;
+    margin-right: 334px;
 }
 
 .footer-list-container {
@@ -322,7 +321,6 @@
     display: inline-block;
     font-size: 16px;
     line-height: 24px;
-    text-align: left;
 }
 
 .footer-nav-link {
@@ -335,3 +333,4 @@
     background-color: rgba(0, 0, 0, 1) ;
     color: rgba(255, 255, 255, 1);
 }
+
