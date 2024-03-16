@@ -1,0 +1,226 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"); */
+
+body {
+  font-family: "Lexend";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 9px 17px;
+  background-color: #4cfdc7;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button_small-fz {
+  font-size: 12px;
+}
+
+.button_stroke {
+  background-color: transparent;
+  border: 1px solid #18181b;
+}
+
+/* navigation */
+
+.navigation {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  margin-bottom: 130px;
+}
+
+.navigation__aside {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.navigation__list {
+  display: flex;
+  column-gap: 32px;
+}
+
+.navigation__link {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.navigation__name {
+  color: #18181b;
+}
+
+/* header-content */
+
+.header-content {
+  display: flex;
+}
+
+.header-content__aside {
+  margin-right: 132px;
+  padding-top: 32px;
+  max-width: 660px;
+}
+
+.header-content__title {
+  font-size: 71px;
+  line-height: 90px;
+  letter-spacing: 1px;
+  margin-bottom: 34px;
+}
+
+.header-content__text {
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  max-width: 460px;
+  letter-spacing: 0.1px;
+  color: #27272a;
+}
+
+.header-content__buttons-group {
+  display: flex;
+  column-gap: 15px;
+}
+
+/* crypto-main block */
+
+.crypto-title__block {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: 0,1px;
+    line-height: 14px;
+    column-gap: 32px;
+    padding: 24px 0px;
+}
+
+.crypto-tittle__nav {
+    color: rgba(113, 113, 122, 1);
+}
+
+.active_block {
+    color: rgba(24, 24, 27, 1);
+}
+
+.crypto-asset {
+    border-bottom: 1px solid 
+    rgba(244, 244, 245, 1);
+}
+
+
+.crypto-box {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    border-bottom: 1px solid 
+    rgba(244, 244, 245, 1);
+}
+
+.positive {
+    color:  rgba(16, 185, 129, 1);
+}
+
+.negative {
+    color: rgba(244, 63, 94, 1);
+}
+
+.crypto-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;   
+    font-size: 15px;
+    line-height: 20px;
+    column-gap: 24px;   
+}
+
+.crypto {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.crypto__logo, .crypto__price,
+.crypto__change, .crypto__market-cap,
+.crypto-asset__tittle {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    align-items: center;
+ }
+
+ .last {
+    padding-right: 88px;
+ }
+
+ .crypto__logo-img, .first {
+    padding-left: 32px;
+ }
+
+.crypto__title {
+    padding-left: 8px;
+}
+
+.buy_btn {
+    max-width: 56px;
+    font-size: 11px;
+    background-color: rgba(154, 253, 76, 1);
+    margin-right: 32px;
+}
+
+.crypto-all-market {
+    display: flex;
+    justify-content: center; 
+    position: relative;
+    top: 0px;
+    left: 0px; 
+}
+
+.crypto-all-market__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crypto__nav__link {
+    position: absolute;
+    top: 22px;
+}
+
+.link_1 {
+    left: 410px;
+}
+
+.link_2 {
+    left: 428px;
+}
+
+.link_3 {
+    left: 446px;
+}
+
+.link_4 {
+    left: 464px;
+}
+
+.crypto-all-market__text {
+    margin: 29px 9px;
+}
+
+.crypto__nav_text {
+    color: rgba(24, 24, 27, 1);
+}
