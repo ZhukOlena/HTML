@@ -1,0 +1,115 @@
+.container {
+    display: grid;
+    margin: 0;
+    height: 100%;
+}
+
+.item1, .item2, .item3, .item4,
+ .item5, .item6, .item7 {
+    display: grid;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.item1 {
+    grid-area: HEADER;
+    background-color: black;
+    color: white;   
+}
+
+.item2 {
+    grid-area: MENU;
+    background-color: rgb(236, 75, 75);
+    color: white;
+}
+
+.item3 {
+    grid-template-rows: repeat(1, 3fr);
+    grid-area: HERO;
+    background-color: rgb(79, 163, 227);
+    color: white;
+}
+
+.item4 {
+    grid-template-rows: repeat(1, 2fr);
+    grid-area: MAIN;
+    background-color: rgb(12, 12, 44);
+    color: white;
+}
+
+.item5 {
+    grid-area: IMAGE;
+    background-color: rgb(122, 180, 161);
+    color: rgb(12, 10, 10);
+    height: 100px;
+}
+
+.item6 {
+    grid-area: EXTRA;
+    background-color: rgb(26, 109, 70);
+    color: rgb(12, 10, 10);
+    height: 100px;
+}
+
+.item7 {
+    grid-area: BANNER;
+    background-color: rgb(199, 199, 23);
+    color: rgb(12, 10, 10);
+    height: 100px;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas: 
+    "HEADER MENU MENU MENU"
+      "HERO HERO HERO HERO"
+      "HERO HERO HERO HERO"
+      "MAIN MAIN . IMAGE"
+      "MAIN MAIN . EXTRA"
+      "BANNER BANNER BANNER BANNER";
+}
+
+
+
+   @media (max-width: 1023px) {
+    .item1, .item2, .item3, .item4,
+    .item5, .item6, .item7 {
+        font-size: 18px;
+    }
+    .grid-box {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 50px 2fr repeat(4, 1fr);
+      grid-template-areas:
+        "HEADER HEADER HEADER HEADER"
+        "HERO HERO HERO HERO"
+        "MENU MAIN MAIN MAIN"
+        "MENU MAIN MAIN MAIN"
+        "MENU BANNER BANNER BANNER"
+        "MENU EXTRA EXTRA  IMAGE";
+    }
+   }
+
+   @media (max-width: 768px) {
+    .item1, .item2, .item3, .item4,
+    .item5, .item6, .item7 {
+        font-size: 14px;
+    }
+    .grid-box {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 50px 50px 200px 200px;
+      grid-template-areas:
+        "HEADER"
+        "MENU"
+        "HERO"
+        "MAIN"
+        "BANNER"
+        "EXTRA"
+        "IMAGE";
+    }
+   }
