@@ -43,27 +43,25 @@
     grid-area: IMAGE;
     background-color: rgb(122, 180, 161);
     color: rgb(12, 10, 10);
-    height: 100px;
 }
 
 .item6 {
     grid-area: EXTRA;
     background-color: rgb(26, 109, 70);
     color: rgb(12, 10, 10);
-    height: 100px;
 }
 
 .item7 {
     grid-area: BANNER;
     background-color: rgb(199, 199, 23);
     color: rgb(12, 10, 10);
-    height: 100px;
 }
 
 .grid-box {
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 100px);
+    grid-template-rows: repeat(6, 2fr);
     grid-template-areas: 
     "HEADER MENU MENU MENU"
       "HERO HERO HERO HERO"
@@ -73,8 +71,6 @@
       "BANNER BANNER BANNER BANNER";
 }
 
-
-
    @media (max-width: 1023px) {
     .item1, .item2, .item3, .item4,
     .item5, .item6, .item7 {
@@ -83,7 +79,7 @@
     .grid-box {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: 50px 2fr repeat(4, 1fr);
+      grid-template-rows: 50px 2fr repeat(4, 2fr);
       grid-template-areas:
         "HEADER HEADER HEADER HEADER"
         "HERO HERO HERO HERO"
