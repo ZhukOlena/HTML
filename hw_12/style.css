@@ -840,7 +840,143 @@
         
     
        
+.wrapper-footer {
+    max-width: 1050px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+    border-bottom: 1px solid;
+    border-color: rgba(204, 204, 204, 1);
+}
+
+.footer__marketplace {
+    max-width: 327px;
+
+}
+
+.nav_footer {
+    padding-left: 0px;
+    justify-content: start;
+    padding-bottom: 25px;
+}
+
+.footer__nav__logo-img {
+    padding-bottom: 0px;
+}
+
+.footer__nav-list {
+    max-width: 238px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.nav-link_tittle {
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-link_text {
+    padding-top: 20px;
+    color: rgba(204, 204, 204, 1);
+}
+ 
+.footer__nav-list_icon {
+    max-width: 158px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: rgba(204, 204, 204, 1);
+}
+  
+.footer__nav-item_icon {
+    padding-top: 15px;
+    max-width: 32px;
+}
+
+.nav-link__footer {
+    display: flex;
+    justify-content: space-between;
+}
     
-   
-    
-    
+.footer__explore {
+    max-width: 240px;
+}
+
+.footer__join {
+    max-width: 420px;
+}
+
+
+
+
+
+.join-btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 420px;
+    max-height: 60px;
+    background-color: rgba(249, 249, 249, 1);
+    color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+    max-height: 60px;   
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+    /* margin: 12px 0px; */
+}
+
+.join-btn {
+    display: flex;
+    justify-content: center;
+    max-width: 209px;
+    align-items: center;
+    column-gap: 16px;
+    padding: 14px 12px 19px 20px;
+}
+
+.join-btn-text {
+    /* padding: 19px 12px 19px 20px; */
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    justify-content: center;
+}
+
+.join-button {
+    background-color: rgba(162, 89, 255, 1);
+    padding: 0px 50px 19px 50px;
+    max-width: 179px;
+    max-height: 60px;
+    border-radius: 20px;
+    align-content: stretch;
+}
+
+.join-link {
+    color: rgba(255, 255, 255, 1);
+    max-width: 79px;
+    max-height: 60px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 19px;
+}
+
+.footer_link_last {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-link_last {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    color: rgba(204, 204, 204, 1) ;
+}
